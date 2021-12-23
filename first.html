@@ -1,5 +1,8 @@
-<!-- wap in javascript to input marks of four subject after that find total marks,percentage marks,and remark
-     according to given condition if percentage is greater than equal to 90 then remark will be excellent
+<!-- wap in javascript to input marks of four subject after that find total marks,percentage marks,
+    
+    and remark
+     according to given condition if percentage is greater than equal to 90 then remark will be 
+     excellent
     if percentage marks is equal to greater than 75 then remark will be very good
 if percentage marks is equal to greater than 60 then remark will be  good 
 if percentage marks is equal to greater than 45 then remark will be poor otherwise fail-->
@@ -13,11 +16,33 @@ if percentage marks is equal to greater than 45 then remark will be poor otherwi
 </head>
 <body>
     <script>
-        var a,b,c,d;
+        var a,b,c,d,tm,p;
         a=parseInt(prompt("Enter marks of Physics"));
         b=parseInt(prompt("Enter marks of Chemistry"));
         c=parseInt(prompt("Enter marks of Math"));
         d=parseInt(prompt("Enter marks of English"));
+        
+        tm=a+b+c+d;
+        alert("total marks= "+tm)
+        p=tm/400*100
+        alert("Percentage= "+p)
+
+        if(p>=90)
+        alert("Excellent")
+
+        else if(p>=75)
+        alert("Very good")
+
+        else if(p>=60  )
+        alert("good")
+
+        else if(p>=45)
+        alert("Poor")
+
+        else(p<45)
+        alert("Fail")
+
+
         
 
     </script>
