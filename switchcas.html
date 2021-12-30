@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!-- Write a program in javascript to input month, day, and number after that print consisting number of days using switch case statement   -->
+<body>
+    <script>
+        var mdn;
+        mdn=parseInt(prompt("Enter any month day number[1-12]"))
+        switch(mdn)
+        {
+            case 1:
+            case 3:  
+            case 5: 
+            case 7: 
+            case 8: 
+            case 10: 
+            case 12:
+                document.write("<b> 31 days </b>");
+                break;
+            case 2:
+                document.write("<b> 28 or 29 days </b>");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 12:
+                break;
+                default:
+                document.write("<b>Invalid Month day number</b>");
+    
+            
+
+
+
+
+
+        }
+    </script>
+</body>
+</html>
