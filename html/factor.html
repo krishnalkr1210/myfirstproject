@@ -1,0 +1,28 @@
+<!-- wap in javascript to input any number after that count even and odd factors -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factors</title>
+</head>
+<body>
+    <script>
+        var n,i,ocount=0,ecount=0;
+        n=parseInt(prompt("Enter any number"));
+        for(i=1;i<=n;i++)
+        {
+            if(n%i==0)
+                if(i%2==0)
+                    ecount++
+                else
+                    ocount++
+        }
+        alert("number of odd facors="+ocount,"\nnumber of even facors="+ecount);
+    
+        
+    </script>
+    
+</body>
+</html>

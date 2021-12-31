@@ -1,0 +1,5 @@
+1. wap in javascript to input any number after that check number is perfect or not
+2.wap in javascript to input any number after that check number is armstong or not
+3.To input a number and check number is strong or not
+4.wap in javascript to input any number after that check number is palindrome or not
+5. To input two numbers after that check both numbers are twin prime or not
