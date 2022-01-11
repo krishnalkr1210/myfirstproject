@@ -1,15 +1,17 @@
+//Completed
+//Area of a triangle using heron's formula
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 void main()
 {
-    int a,b,c;
-    float ar;
-    double s;
+    double a,b,c,s,area;
     printf("Enter Number");
-    scanf("%d",&s);
-    printf("%d",sqrt(s));
-    
+    scanf("%lf",&a);
+    scanf("%lf",&b);
+    scanf("%lf",&c);
+    s=(a+b+c)/2;
+    area=sqrt(s*(s-a)*(s-b)*(s-c));
+    printf("%lf",area);
     getchar();
     }
 
