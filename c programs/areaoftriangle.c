@@ -12,4 +12,5 @@ void main()
     scanf("%f",&h);
     ar=0.5*b*h;
     printf( "Area of triangle is " "%.2f",ar);
+    getchar();
 }
