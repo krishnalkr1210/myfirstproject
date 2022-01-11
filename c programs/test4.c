@@ -1,5 +1,4 @@
 //* C program to Print Integer, Char, and Float value */
-
 #include <stdio.h>
 int main()
 {
