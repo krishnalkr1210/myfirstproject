@@ -6,10 +6,10 @@ void main()
 {
     
     float ar,a,b,h;
-    printf("Enter base of the triangle");
+    printf("Enter base of the triangle ");
     scanf("%f",&b);
-    printf("Enter height of the triangle");
+    printf("Enter height of the triangle ");
     scanf("%f",&h);
     ar=0.5*b*h;
-    printf("%.2f",ar);
+    printf( "Area of triangle is " "%.2f",ar);
 }
