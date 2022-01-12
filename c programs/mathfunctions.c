@@ -9,8 +9,5 @@ void main()
     printf("\n%f",floor(3.9));
     printf("\n%f",ceil(-3.9));
     printf("\n%f",floor(-3.9));
-
-
-
     getchar();
 }

@@ -13,7 +13,7 @@ void main()
     area=sqrt(s*(s-a)*(s-b)*(s-c));
     printf("%lf",area);
     getchar();
-    }
+}
 
     
     

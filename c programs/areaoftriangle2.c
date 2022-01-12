@@ -12,5 +12,4 @@ void main ()
     area=l*b;
     printf("Area of the Rectangle is " "%.2f",area);
     getchar();
-
 }

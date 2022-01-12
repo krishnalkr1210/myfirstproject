@@ -13,6 +13,4 @@ int main()
     p=3.2e20;
     printf("/n%d %10.2f %c %.2lf",x,y,z,p);
     getchar();
-
-
 }

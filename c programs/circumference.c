@@ -10,6 +10,4 @@ void main()
     circumference=3.142857142857143*2*r;
     printf("Circumference of the Circle is " "%.2f",circumference);
     getchar();
-
-
 }

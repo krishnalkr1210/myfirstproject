@@ -10,6 +10,4 @@ void main()
     area=3.142857142857143*r*r;
     printf("Area of the Circle is " "%.2f",area);
     getchar();
-
-
 }
