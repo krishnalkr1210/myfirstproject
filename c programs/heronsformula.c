@@ -5,13 +5,13 @@
 void main()
 {
     double a,b,c,s,area;
-    printf("Enter Number");
+    printf("Enter Sides of the triangle");
     scanf("%lf",&a);
     scanf("%lf",&b);
     scanf("%lf",&c);
     s=(a+b+c)/2;
     area=sqrt(s*(s-a)*(s-b)*(s-c));
-    printf("%lf",area);
+    printf("%.2lf",area);
     getchar();
 }
 

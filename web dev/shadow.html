@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            border: 2px solid brown;
+            background-color: burlywood;
+            /* box shadow offset-x offset-y blur radius spread radius color */
+            box-shadow: 10px 13px 50px 50px rgba(50, 30,100, 0.5), 10px 13px 50px 50px cyan;
+            
+        }
+        #card-1{
+            text-shadow: 5px 6px 3px coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Crad1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugit pariatur cumque ipsa vitae id non cupiditate asperiores. Aliquam, neque nihil commodi magnam odit perspiciatis ad, expedita adipisci, corrupti eius tenetur reprehenderit inventore officiis nobis eaque. Tempora consequuntur corporis delectus libero, inventore facere iste natus animi quaerat aliquid, aspernatur laborum!</p></div>
+        <div class="card" id="card-2">
+            <h2>Crad2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugit pariatur cumque ipsa vitae id non cupiditate asperiores. Aliquam, neque nihil commodi magnam odit perspiciatis ad, expedita adipisci, corrupti eius tenetur reprehenderit inventore officiis nobis eaque. Tempora consequuntur corporis delectus libero, inventore facere iste natus animi quaerat aliquid, aspernatur laborum!</p></div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugit pariatur cumque ipsa vitae id non cupiditate asperiores. Aliquam, neque nihil commodi magnam odit perspiciatis ad, expedita adipisci, corrupti eius tenetur reprehenderit inventore officiis nobis eaque. Tempora consequuntur corporis delectus libero, inventore facere iste natus animi quaerat aliquid, aspernatur laborum!</p></div>
+    </div>
+</body>
+</html>

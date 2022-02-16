@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selector</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            background-image: url(pic.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            width: max-content;
+           
+
+        }
+
+        header::before{
+           
+        }
+
+        .navigation{
+            font-size: 20px;
+            display: flex;
+
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+        }
+        header{
+            display: flex;
+            flex-direction:column;
+        }
+
+        section{
+            height: 344px;
+            margin: 3px 23px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 2px solid red; */
+            justify-content: center;
+            background-image: ;
+        }
+        /* section::before{ */
+            /* content: "This is a content"; */
+        }
+        h3{
+            font-size: 4rem;
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h3>
+                Welcome to coding world </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quod nihil numquam, neque consequatur architecto quo ab delectus animi dolor optio consequuntur possimus quisquam aperiam excepturi nemo voluptas recusandae ut et, quia asperiores sint.</p>
+            
+        </section><hr>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var vid = document.getElementById("mv");
+
+        function play()
+        {
+            document.getElementById("mv").play();
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <video src="html.mp4" height="400px" width="600px" id="mv" controls></video>
+        <input type="button" value="Play" onclick="play()">
+    </div>
+
+</body>
+
+</html>
