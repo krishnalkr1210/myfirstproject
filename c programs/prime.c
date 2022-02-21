@@ -1,33 +1,30 @@
-//Completed☑️
-// Large number among three numbers
+// uncomplete
+// Checking the number prime or not
 #include <stdio.h>
-int main()
+#include <math.h>
+int main(int argc, char const *argv[])
 {
-    int a, b, c;
-    printf("Enter First Number ");
-    scanf("%d", &a);
+    int n, i, f;
+    printf("Enter a number");
+    scanf("%d", &n);
 
-    printf("Enter Second Number ");
-    scanf("%d", &b);
-
-    printf("Enter Third Number ");
-    scanf("%d", &c);
-
-    
-
-    if (a > b && a > c)
+    for (i = 2; i < n; i++)
     {
-        printf("%d is largest number ", a);
+        if (n % 2 == 0)
+        {
+            f++;
+            // break;
+        }
     }
 
-    else if (b > a && b > c)
+    if (f == 0)
     {
-        printf("%d is largest number ");
+        printf("prime");
     }
 
-    else if (c > a && c > b)
+    else
     {
-        printf("%d is largest number ", c);
+        printf("not prime");
     }
 
     return 0;
