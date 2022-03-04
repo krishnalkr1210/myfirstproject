@@ -4,12 +4,9 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-    int n, i, c = 1,p,q;
+    int n, i, c = 1;
     printf("Enter a Number : ");
     scanf("%d", &n);
-
-   
-    
 
     for (i = 2; i <= n / 2; i++)
     {

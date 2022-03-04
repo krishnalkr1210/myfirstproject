@@ -1,16 +1,15 @@
-// uncomplete
-// Checking the number prime or not
+// completed
+// Checking the number prime or Composite
 #include <stdio.h>
-#include <math.h>
 int main(int argc, char const *argv[])
 {
-    int n, i, f;
-    printf("Enter a number");
+    int n, i, f=0;
+    printf("Enter a number : ");
     scanf("%d", &n);
 
     for (i = 2; i < n; i++)
     {
-        if (n % 2 == 0)
+        if (n % i == 0)
         {
             f++;
             // break;
@@ -19,12 +18,12 @@ int main(int argc, char const *argv[])
 
     if (f == 0)
     {
-        printf("prime");
+        printf("%d is a Prime Number", n);
     }
 
     else
     {
-        printf("not prime");
+        printf("%d is a Composite Number", n);
     }
 
     return 0;
