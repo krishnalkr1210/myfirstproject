@@ -1,4 +1,4 @@
-/*  C Program to convert decimal to binary using stack  */
+ /*  C Program to convert decimal to binary using stack  */
 
 #include<stdio.h>
 #include<stdlib.h>
