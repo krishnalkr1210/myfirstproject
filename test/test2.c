@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-    int a,b;
-    for ( i = 0; i < count; i++)
+    int x=3, y,i;
+    for ( i = 1; i <=x; i++)
     {
-        /* code */
+        x=x*i;
     }
-    
+    printf("product is %d",x);
+
     return 0;
 }

@@ -1,1 +1,1 @@
- c+=i;
+  // printf("score is %d",counter);

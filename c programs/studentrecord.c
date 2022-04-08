@@ -37,3 +37,6 @@ int main(int argc, char const *argv[])
     showrecord();
     return 0;
 }
+#include <stdio.h>
+
+

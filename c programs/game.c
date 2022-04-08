@@ -1,45 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-
-int main(int argc, char const *argv[])
+int main()
 {
-    int n=10,guess,nguess=1;
-    // srand(time(0));
-    // n=rand()%100+1;
-
-
-    printf("Enter a number ");
-    scanf("%d", &guess);
-    
+    int number, n, i, counter = 0;
+    srand(time(0));
+    number = rand() % 100 + 1;
+    printf("Enter a Number between 1 to 100 ");
+    scanf("%d", &n);
     do
     {
-        
-        
-        if (guess>n)
+        if (n > number)
         {
-            printf("\nEnter a lesser number");
-            scanf("%d", &guess);
+            printf("Enter a smaller Number ");
+            scanf("%d", &n);
         }
 
-        else if (guess<n)
+        else if (n < number)
         {
-            printf("\nEnter a Higher number");
-            scanf("%d", &guess);
+            printf("Enter a larger Number ");
+            scanf("%d", &n);
         }
 
-        else (guess=n);
-        {
-            printf("\nYou guessed in %d attempts", nguess);
-        }
-        nguess++;
-        
-        
-    } while (guess!=n);
-    
-    
+        // else
+        // {
+        //     printf("You guessed it in %d attempts",counter);
+        // }
+
+        counter++;
+
+    } while (n != number);
+    printf("You guessed it in %d attempts", counter);
+
     return 0;
 }
-
